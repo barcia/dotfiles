@@ -1,0 +1,22 @@
+[user]
+		name = Iván Barcia
+		email = ivan@barcia.gal
+[core]
+		editor = vim
+		pager = less
+		excludesfile = /Users/ivan/.gitignore
+[color]
+		ui = auto
+		diff = auto
+		status = auto
+		branch = auto
+[github]
+		user = barcia
+[push]
+		default = current
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

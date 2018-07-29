@@ -1,0 +1,41 @@
+# Production
+# dist/
+# build/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Cache
+.cache
+.sass-cache/
+.eslintcache
+.npm
+.env
+
+# OS
+.directory
+.Trash-*
+.nfs*
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.vi
+*.zip
+*~
