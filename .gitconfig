@@ -1,6 +1,7 @@
 [user]
 	name = Iván Barcia
 	email = ivan@barcia.gal
+	signingkey = 40A5C05AFC3A618A
 [core]
 	editor = vim
 	pager = less
