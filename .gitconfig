@@ -1,22 +1,25 @@
 [user]
-		name = Iván Barcia
-		email = ivan@barcia.gal
+	name = Iván Barcia
+	email = ivan@barcia.gal
 [core]
-		editor = vim
-		pager = less
-		excludesfile = /Users/ivan/.gitignore
-[color]
-		ui = auto
-		diff = auto
-		status = auto
-		branch = auto
+	editor = vim
+	pager = less
+	excludesfile = $HOME/.config/git/ignore
+[commit]
+	template = ~/.config/git/commit
 [github]
-		user = barcia
+	user = barcia
 [push]
-		default = current
+	default = current
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[alias]
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	s = status -s
+
