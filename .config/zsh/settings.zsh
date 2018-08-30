@@ -8,7 +8,9 @@ select-word-style bash # ctrl+w on words
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git svn hg
 zstyle ':vcs_info:*' check-for-changes true
-zstyle ':vcs_info:*' formats "%F{magenta}%b%f%F{green}%c%f"
+zstyle ':vcs_info:*' unstagedstr ' •'
+zstyle ':vcs_info:*' stagedstr ' +'
+zstyle ':vcs_info:*' formats "%F{magenta}%b%u%c%f "
 precmd() {  # run before each prompt
     vcs_info
 }
