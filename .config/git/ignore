@@ -1,3 +1,6 @@
+# Config
+.dotfiles/
+
 # Production
 # dist/
 # build/
