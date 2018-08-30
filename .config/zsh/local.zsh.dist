@@ -1,0 +1,10 @@
+LOCAL_HOST=''
+LOCAL_USER=''
+
+# Global variables
+export EDITOR="vim"
+export GEDITOR="code"
+export PAGER="less"
+
+# Paths
+export PATH=""
