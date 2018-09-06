@@ -12,6 +12,7 @@ alias cp='cp -ri'
 alias mv='mv -i'
 alias mkdir='mkdir -pv'
 alias grep='grep --color'    # Amosa a palabra buscada con cor
+alias cat='bat'
 
 # Apps
 alias wget='wget -c'         # Se falla a conexión, continúa despois coa descarga
