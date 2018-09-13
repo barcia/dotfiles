@@ -7,4 +7,4 @@ export GEDITOR="code"
 export PAGER="less"
 
 # Paths
-export PATH=""
+# export PATH=""
