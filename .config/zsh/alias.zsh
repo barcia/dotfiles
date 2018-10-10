@@ -12,7 +12,6 @@ alias cp='cp -ri'
 alias mv='mv -i'
 alias mkdir='mkdir -pv'
 alias grep='grep --color'    # Amosa a palabra buscada con cor
-alias cat='bat'
 
 # Apps
 alias wget='wget -c'         # Se falla a conexión, continúa despois coa descarga
@@ -49,13 +48,5 @@ alias des='cd ~/Desktop && ls'
 alias dev='cd ~/Developer && ls'
 alias cloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/ && ls'
 
-
-# Suffixes
-alias -s html=atom
-alias -s css=atom
-alias -s scss=atom
-alias -s less=atom
-alias -s zsh=vim
-alias -s sh=vim
 
 alias zshrc='$GEDITOR ~/.zsh.d'
