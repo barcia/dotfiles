@@ -47,6 +47,3 @@ alias lib='cd ~/Library && ls'
 alias des='cd ~/Desktop && ls'
 alias dev='cd ~/Developer && ls'
 alias cloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/ && ls'
-
-
-alias zshrc='$GEDITOR ~/.zsh.d'
