@@ -14,9 +14,6 @@ function mac() {
 
       echo "Updating installed Ruby gems..."
       sudo gem update --system; sudo gem update;
-
-      echo "Updating Atom Packages..."
-      apm upgrade --no-confirm;
     ;;
 
     # Get macOS Info
