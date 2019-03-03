@@ -1,6 +1,6 @@
 [user]
 	name = Iván Barcia
-	email = ivan@barcia.gal
+	email = ivan@barcia.dev
 	signingkey = 40A5C05AFC3A618A
 [core]
 	editor = vim
