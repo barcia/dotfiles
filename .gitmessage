@@ -1,0 +1,30 @@
+# <subject> (This commit will... / I will have…) (Max 50 char)
+
+# <body> (What and Why, not How)
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+
+
+# --- COMMIT END ---
+
+# BEST PRACTISES
+# 1. Each commit should be a **single «logical change»**. Don’t make several «logical changes» in one commit
+# 2. To write good commits, try to continue the sentece: *If applied, this commit will…* or  *After this commit, I will have…*
+# 3.  **Use a editor**, not the terminal, when writing a commit message
+# 4. **Capitalize** the subject line
+# 5. Use the **imperative** mood in the subject line
+# 6. Do not end the subject line with a period
+# 7. Separate subject from body with a **blank line**
+# 8. Use the body to explain **what and why vs. how**
+# 9. Can use multiple lines with “-“ for bullet points in body
+
+# KEYWORDS
+# close #1
+# fix #1
+# resolve #1
+
+# REFERENCE
+# Provide links or keys to any relevant tickets, articles or other resources
+# - #34
+# - github/linguist#4039
+# - a5c3785ed8d6a35868bc169f07e40e889087fd2e (Commit SHA)
+# - https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e (Commit URL)

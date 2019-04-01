@@ -5,10 +5,10 @@
 [core]
 	editor = vim
 	pager = less
-	excludesfile = ~/.config/git/ignore
+	excludesfile = ~/.gitignore
 	filemode = false
 [commit]
-	template = ~/.config/git/commit
+	template = ~/.gitmessage
 	gpgsign = true
 [github]
 	user = barcia
@@ -28,7 +28,7 @@
 [merge]
 	tool = vscode
 [mergetool "vscode"]
-		cmd = code --wait $MERGED
+	cmd = code --wait $MERGED
 [diff]
 	tool = vscode
 [difftool "vscode"]
