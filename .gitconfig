@@ -5,7 +5,6 @@
 [core]
 	editor = vim
 	pager = less
-	excludesfile = ~/.gitignore
 	filemode = false
 [commit]
 	template = ~/.gitmessage
