@@ -18,10 +18,6 @@ alias wget='wget -c'         # Se falla a conexión, continúa despois coa desca
 alias scp='scp -rp'          # Copia de forma recursiva e mantén os datos dos arquivos
 alias reboot='sudo reboot'   # Reinicia o ordenador
 alias svim='sudo vim'
-alias speed='speedtest-cli --simple'
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-alias chrome-debug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Directorios
 alias up='cd ..'

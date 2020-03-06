@@ -1,4 +1,4 @@
-ZSH="$HOME/.config/zsh"
+ZSH="$HOME/.zsh"
 
 . $ZSH/settings.zsh
 . $ZSH/alias.zsh
