@@ -9,7 +9,7 @@
 # BEST PRACTISES
 # 1. Each commit should be a **single «logical change»**. Don’t make several «logical changes» in one commit
 # 2. To write good commits, try to continue the sentece: *If applied, this commit will…* or  *After this commit, I will have…*
-# 3.  **Use a editor**, not the terminal, when writing a commit message
+# 3. **Use a editor**, not the terminal, when writing a commit message
 # 4. **Capitalize** the subject line
 # 5. Use the **imperative** mood in the subject line
 # 6. Do not end the subject line with a period
