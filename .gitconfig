@@ -21,10 +21,7 @@
 	st = status -s
 	co = checkout
 	br = branch
-	up = rebase
 	ci = commit
-	mt = mergetool
-	dt = difftool
 [merge]
 	tool = vscode
 [mergetool "vscode"]
