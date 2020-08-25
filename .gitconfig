@@ -1,11 +1,10 @@
 [user]
 	name = Iván Barcia
-	email = ivan@barcia.dev
-	signingkey = 40A5C05AFC3A618A
+	email = ivanbarcia@icloud.com
+	signingkey = 21D917A63D475AC66F0E3A7340A5C05AFC3A618A
 [core]
 	editor = vim
 	pager = less
-	filemode = false
 [commit]
 	template = ~/.gitmessage
 	gpgsign = true
@@ -19,8 +18,6 @@
 	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	st = status -s
 	co = checkout
-	br = branch
-	ci = commit
 [merge]
 	tool = vscode
 [mergetool "vscode"]
@@ -29,5 +26,3 @@
 	tool = vscode
 [difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
-[url "git@github.com:"]
-	insteadOf = "github:"
